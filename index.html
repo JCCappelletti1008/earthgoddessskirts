@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <script src="js/main.js"></script>
 
   <header class="hero">
     <!-- Corner border -->
@@ -30,7 +31,24 @@
     </p>
   </header>
 
-  <script src="js/main.js"></script>
+  <section class="carousel">
+    <div class="slider">
+      <div class="slides" id="slideContainer"></div>
+      <div class="nav nav-left" onclick="prevSlide()">&#9664;</div>
+      <div class="nav nav-right" onclick="nextSlide()">&#9654;</div>
+      <div class="edge-fade left-fade"></div>
+      <div class="edge-fade right-fade"></div>
+    </div>
+  </section>
+
+  <div class="announcement">
+    <h2>Exciting News! <br>A Seamless Product Purchasing System Is Coming Soon.</h2>
+    <p>Until then, feel free to <a href="mailto:info@earthgoddessskirts.ca">email us</a> with any inquiries.</p>
+  </div>
+
+
+<script src="js/slider.js"></script>
+
 
   <footer class="footer">
     <ul class="contact-list">
