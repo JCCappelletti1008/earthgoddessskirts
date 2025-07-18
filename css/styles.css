@@ -79,6 +79,21 @@ html, body {
   font-family: 'Lora', serif;
 }
 
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.footer a:visited {
+  color: #dddddd;
+}
+
+
 /* Contact list */
 .contact-list {
   list-style: none;
@@ -100,4 +115,34 @@ html, body {
   height: 20px;
   margin-right: 0.5rem;
   flex-shrink: 0;
+}
+
+.footer .contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .contact-list li {
+  margin-bottom: 0.75rem;
+}
+
+.footer .contact-list li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .contact-list li img {
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
 }
