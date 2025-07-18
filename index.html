@@ -2,47 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Earth Goddess Skirts</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts: Lora 400 + 700italic -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Earth Goddess Skirts</h1>
-    <p>Handmade with love in Canada using global artisan fabrics</p>
+
+  <header class="hero">
+    <!-- Corner border -->
+    <div class="corner-border"></div>
+
+    <!-- Logo -->
+    <img src="img/EGS_Logo_lg.png" alt="Earth Goddess Skirts logo" class="logo" />
+
+    <h1 class="hero-title">Earth Goddess Skirts</h1>
+    <p class="hero-tagline">
+      Handmade with love in Canada<br/>
+      using global artisan fabrics
+    </p>
   </header>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome</h2>
-      <p>
-        Each skirt is uniquely crafted using rich, vibrant textiles sourced from around the world. Thoughtfully designed, joyfully made.
-      </p>
-    </section>
+  <script src="js/main.js"></script>
 
-    <section class="gallery">
-      <h2>Sample Styles</h2>
-      <div class="skirt-grid">
-        <div class="skirt-card">
-          <img src="https://placehold.co/300x400?text=Skirt+1" alt="Skirt sample 1">
-          <p>Boho Wrap Skirt</p>
-        </div>
-        <div class="skirt-card">
-          <img src="https://placehold.co/300x400?text=Skirt+2" alt="Skirt sample 2">
-          <p>Patchwork Midi</p>
-        </div>
-        <div class="skirt-card">
-          <img src="https://placehold.co/300x400?text=Skirt+3" alt="Skirt sample 3">
-          <p>Flowing Maxi</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Earth Goddess Skirts</p>
+  <footer class="footer">
+    <ul class="contact-list">
+      <li>
+        <img src="img/icon_insta.png" alt="Insta icon" />
+        @earth_goddess.skirts
+      </li>
+      <li>
+        <img src="img/icon_email.png" alt="Email icon" />
+        info@earthgoddessskirts.ca
+      </li>
+      <li>
+        <img src="img/icon_web.png" alt="Location icon" />
+        Castleton, Ontario, Canada
+      </li>
+    </ul>
   </footer>
 
-  <script src="main.js"></script>
+
 </body>
 </html>
